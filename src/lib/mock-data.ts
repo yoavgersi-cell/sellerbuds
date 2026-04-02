@@ -5,94 +5,99 @@ export const mockArticles: Article[] = [
   {
     id: '1',
     slug: 'how-to-rank-higher-on-etsy-search',
-    title: 'How to Rank Higher on Etsy Search in 2024',
-    excerpt: 'Learn the proven SEO strategies top Etsy sellers use to dominate search results and drive consistent traffic to their shops.',
-    content: `# How to Rank Higher on Etsy Search in 2024
+    title: 'How to Rank Higher on Etsy Search in 2026',
+    excerpt: 'The rules have shifted. Here are the SEO strategies top Etsy sellers are using right now to stay visible in a more competitive, AI-influenced search landscape.',
+    content: `# How to Rank Higher on Etsy Search in 2026
 
-Etsy search is the single most powerful traffic source in your shop. With over 90 million active buyers, showing up on page one for the right keywords can turn a slow shop into a thriving business. The good news: Etsy's algorithm rewards relevance and quality, not ad spend. Here's how to work with it.
+Etsy search has changed more in the past two years than in the previous five. AI-assisted discovery, a more competitive seller landscape, and Etsy's continued push toward personalized results mean that tactics that worked in 2023 are now table stakes — not differentiators. Here's what's actually working now.
 
-## How Etsy's Search Algorithm Actually Works
+## What's New in Etsy's Algorithm
 
-Etsy uses a relevance-based ranking system. Every time someone searches, the algorithm asks: *how well does this listing match what the buyer is looking for, and how likely are they to buy it?*
+Etsy has been transparent about one major shift: their search now incorporates **personalized ranking**. Two buyers searching the same phrase will see different results based on their browsing history, past purchases, and location. This means your rank isn't a fixed number anymore — it's different for every buyer.
 
-The four factors it weighs most heavily:
+What this changes for sellers:
 
-**1. Relevancy** — How closely your title, tags, and first few lines of your description match the search query. Exact phrase matches carry more weight than partial matches.
+- **Conversion signals matter more than ever.** If buyers who see your listing tend to click and buy, Etsy shows it to more buyers. A listing with strong photos and a competitive price will outrank a listing with better keywords but weaker conversion.
+- **Niche authority is rewarded.** Shops that consistently sell within one category get a relevance boost in that category. Spreading across too many unrelated niches dilutes this.
+- **Return buyers boost your shop's overall signal.** Etsy now factors in whether buyers come back to purchase from you again. Repeat customers are a ranking signal.
 
-**2. Listing Quality Score** — Etsy tracks click-through rate and purchase rate. If buyers consistently click your listing and buy, your rank improves over time.
+The core factors haven't changed — relevancy, listing quality score, shop quality score, recency — but personalization layers on top of all of them.
 
-**3. Shop Quality Score** — Your shop's overall health: star rating, how complete your profile is, response time, and sales history.
+## Keyword Research in 2026
 
-**4. Recency** — New or recently renewed listings get a short-term boost, typically 24–72 hours. This is why "renewing" can help a slow listing.
+The fundamentals still apply, but there are new tools and new patterns worth knowing.
 
-## Keyword Research: The Right Way
+**Etsy's autocomplete is still your best free tool.** Type the first two or three words of a phrase and pay close attention to what appears. These suggestions are updated in near-real-time and reflect what real buyers searched in the last 30 days.
 
-Most sellers guess at keywords. The sellers who rank do research.
+**AI shopping behavior has changed search terms.** Buyers increasingly use longer, more conversational queries — especially younger shoppers influenced by how they search with AI assistants. "Minimalist ceramic mug handmade gift for coffee lover" is now a realistic Etsy search. Long-tail phrases with 5–7 words are increasingly valuable.
 
-**Start with Etsy's own search bar.** Type the first two words of a phrase and watch the autocomplete suggestions — those are real searches real buyers are making right now. Write them all down.
+**eRank and Marmalead have both added AI-assisted keyword suggestions.** Use them, but treat their suggestions as starting points. The best keywords for your specific listing are ones you verify with actual Etsy search autocomplete, not just tool estimates.
 
-**Go long-tail.** "Personalized oak cutting board wedding gift" will outperform "cutting board" every time. Less competition, higher buyer intent, easier to rank.
+**Search your competitors' reviews.** The words buyers use in five-star reviews are the words other buyers search. "Perfect for my minimalist kitchen," "arrived so quickly and beautifully packaged" — these phrases are keyword gold hiding in plain sight.
 
-**Use tools strategically.** Marmalead and eRank show you search volume and competition data. A keyword with 1,000 monthly searches and medium competition is almost always better than one with 100,000 searches that every seller is targeting.
+## Titles: Write for Humans First, Algorithm Second
 
-**Look at your best competitors.** Find a shop that's clearly winning in your niche. Read their titles carefully. Notice the exact phrases they use. They've already done some of the research for you.
+This has always been the advice, but it matters even more now. Etsy's AI-assisted search has gotten significantly better at semantic understanding — it knows "personalized anniversary present" and "custom engraved gift for couples" are related, even if the exact words don't match.
 
-## Optimizing Your Titles
+**What this means in practice:** Stuff-free, readable titles now perform better relative to keyword-dense strings than they did two years ago.
 
-Your title has 140 characters. Use them wisely.
+**Strong title (2026):** "Personalized Oak Cutting Board — Custom Engraved Wedding Gift for Couples"
 
-Put your most important keyword phrase first — ideally in the first 40 characters, because that's what's visible in search results on mobile. Then add secondary phrases naturally, separated by commas or dashes.
+**Still common, now underperforms:** "cutting board personalized custom engraved wood oak wedding gift couple anniversary"
 
-**Strong title:** "Personalized Oak Cutting Board — Wedding Gift for Couple, Custom Engraved 5th Anniversary"
+Put your primary keyword phrase in the first 40 characters. Make the rest of the title readable and natural. Etsy's semantic understanding will handle the related variations.
 
-**Weak title:** "cutting board wood oak personalized custom wedding gift couple engraved anniversary"
+## Tags: Fill All 13, Focus on Gaps
 
-The difference isn't just aesthetics. Etsy's algorithm parses natural language better than keyword strings, and buyers convert better on readable titles.
+Using all 13 tags remains non-negotiable. What's changed is strategy around *what* to put in them.
 
-## Using All 13 Tags
+In 2026, the smart approach is to use tags to **cover semantic gaps** — phrases related to your product that aren't already covered by your title or description. Etsy's algorithm reads the whole listing, so your tags should add new angles, not repeat what's already there.
 
-Tags are your second biggest lever after titles. Etsy gives you 13 — use every single one.
+Tag angles worth covering:
+- The occasion ("birthday gift for sister," "housewarming present")
+- The recipient ("gift for coffee lover," "for the gardener in your life")
+- The aesthetic ("cottagecore decor," "dark academia gift")
+- The material or process ("hand thrown pottery," "cold process soap")
+- The price tier ("under 30 gift," "luxury gift under 50")
 
-Rules for effective tagging:
-- Use multi-word phrases, never single words ("personalized wedding gift" not "personalized")
-- Match how buyers actually search, not how you'd describe the product internally
-- Don't repeat exact phrases already in your title — tags and titles work together, so diversify
-- Think about the *occasion*, the *recipient*, and the *material*, not just the product
+The aesthetic and vibe tags are newer and increasingly valuable. Etsy's discovery features now surface items by aesthetic — "cottagecore," "maximalist," "japandi" — and buyers actively search these terms.
 
-Example tags for a personalized candle:
-- "bridesmaid gift idea"
-- "custom scented candle"
-- "bridal shower favor"
-- "personalized gift her"
-- "luxury soy candle"
-- "best friend birthday"
+## Video Thumbnails Are Now a Real Ranking Factor
 
-## Fill Every Attribute
+Etsy added listing video as a feature years ago. What's changed: **listings with video now rank measurably higher** in competitive categories, based on data shared by multiple high-volume seller communities.
 
-In your listing's Attributes section, Etsy asks questions specific to your category: color, material, occasion, style. These feed directly into the filters buyers use to narrow results.
+The video doesn't need to be cinematic. 15–30 seconds of your product being handled, used, or unboxed — shot vertically on your phone in good light — is sufficient. The signal to the algorithm is that you've invested in the listing, which correlates with higher quality shops.
 
-A listing with complete attributes can appear in filter-based searches that listings without attributes never reach. It takes two minutes and most sellers skip it. Don't.
+If you have high-volume listings with no video, adding video is currently one of the highest-ROI SEO actions you can take.
 
-## Photography and Conversion Rate
+## The Listing Quality Loop
 
-Here's the link most sellers miss: better photos improve your *conversion rate*, which improves your *listing quality score*, which improves your *search ranking*.
+The most important insight for 2026 Etsy SEO is understanding that keywords get you *found*, but conversion rate is what gets you *ranked*.
 
-SEO isn't just keywords. It's also click-through rate. If your thumbnail looks flat or amateur, buyers scroll past — and Etsy notices. Invest in your photos and your SEO score will follow.
+The loop works like this:
+1. Good keywords → listing appears in search
+2. Strong photo → buyer clicks (high CTR)
+3. Competitive price + clear description → buyer purchases (high conversion)
+4. High CTR + conversion → Etsy shows listing to more buyers
+5. More exposure → more sales → better listing quality score → higher rank
 
-## Tracking What Works
+This means investing in photography and pricing strategy is now SEO work. A 20% improvement in your click-through rate (achieved through better photos) has a larger long-term impact on your rank than adding a few more keywords.
 
-Open Etsy Stats weekly. Look at:
-- Which keywords are sending traffic (Etsy calls them "search terms")
-- Which listings have high views but low sales (conversion problem — usually photos or price)
-- Which listings have low views but decent sales (ranking problem — title/tag opportunity)
+## Tracking: Use Etsy Stats Plus Third-Party Tools
 
-Iterate one listing at a time. Change the title of one listing, wait two weeks, and measure. This is slow but it's how you learn what actually works in your niche.
+Etsy's own Stats dashboard shows you search terms, traffic sources, and listing views. Check it weekly. The patterns to watch:
 
-SEO on Etsy is a compounding game. Sellers who master it in year one are still reaping the benefits in year three.`,
+- **High views, low sales:** Conversion problem. Fix photos, price, or description.
+- **Low views, high conversion rate:** Ranking problem. Fix title and tags.
+- **Sudden view drop on a listing:** Someone with better conversion just outranked you. Study their listing.
+
+eRank's Listing Audit tool now flags specific issues (missing attributes, low-competition tag opportunities, title structure problems) in a format that makes prioritization easy. Worth running on your top 20 listings quarterly.
+
+Etsy SEO in 2026 rewards the same thing it always has: shops that genuinely serve buyers well. The algorithm has just gotten much better at detecting which shops those are.`,
     category: 'Growth',
     author: 'Maya Chen',
-    read_time: 7,
-    published_at: '2024-01-15T10:00:00Z',
+    read_time: 8,
+    published_at: '2026-04-03T10:00:00Z',
     featured: true,
     cover_image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80',
   },
