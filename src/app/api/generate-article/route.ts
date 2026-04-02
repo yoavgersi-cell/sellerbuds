@@ -4,10 +4,6 @@ import { supabase } from '@/lib/supabase'
 
 export const maxDuration = 60
 
-const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_API_KEY!,
-})
-
 // Topic seeds with categories — 20 distinct angles
 const TOPIC_SEEDS = [
   { topic: 'How to dominate Etsy search with keyword research and SEO in 2024', category: 'Growth' },
@@ -65,6 +61,9 @@ export async function GET(request: Request) {
   if (process.env.CRON_SECRET && authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
+
+  // Instantiate inside the handler so missing env vars surface as 500, not a build-time 404
+  const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! })
 
   try {
     // Fetch recent titles to guide duplicate avoidance
