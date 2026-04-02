@@ -30,9 +30,11 @@ export function getSupabaseClient(): SupabaseClient {
   return _supabase
 }
 
-// For backwards compatibility, export a proxy that lazily initializes
+// Lazy singleton — bind methods so `this` is always the real client
 export const supabase = new Proxy({} as SupabaseClient, {
   get(_target, prop) {
-    return getSupabaseClient()[prop as keyof SupabaseClient]
-  }
+    const client = getSupabaseClient()
+    const value = client[prop as keyof SupabaseClient]
+    return typeof value === 'function' ? (value as (...args: unknown[]) => unknown).bind(client) : value
+  },
 })
