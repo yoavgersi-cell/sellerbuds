@@ -12,7 +12,7 @@ export default async function HomePage() {
     getMostReadArticles(5),
   ])
 
-  const gridArticles = allArticles.filter(a => !a.featured).slice(0, 4)
+  const gridArticles = allArticles.filter(a => !a.featured).slice(0, 8)
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
