@@ -201,7 +201,7 @@ The sellers who are thriving on Etsy five years in are the ones who treated pric
     read_time: 6,
     published_at: '2024-01-22T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1573408301185-9519f94815b8?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80',
   },
 
   // 3 — Photography
