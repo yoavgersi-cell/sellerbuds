@@ -99,7 +99,7 @@ Etsy SEO in 2026 rewards the same thing it always has: shops that genuinely serv
     read_time: 8,
     published_at: '2026-04-03T10:00:00Z',
     featured: true,
-    cover_image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&q=80',
   },
 
   // 2 — Pricing
@@ -201,7 +201,7 @@ The sellers who are thriving on Etsy five years in are the ones who treated pric
     read_time: 6,
     published_at: '2024-01-22T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1573408301185-9519f94815b8?w=1200&q=80',
   },
 
   // 3 — Photography
@@ -289,7 +289,7 @@ Avoid filters. Buyers can spot an over-filtered product photo immediately, and i
     read_time: 8,
     published_at: '2024-02-03T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=1200&q=80',
   },
 
   // 4 — Marketing / Pinterest
@@ -372,7 +372,7 @@ Start today. The best time to plant a Pinterest strategy was when you opened you
     read_time: 9,
     published_at: '2024-02-14T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80',
   },
 
   // 5 — Seller Stories
@@ -456,7 +456,7 @@ The Etsy opportunity is real. It requires treating your shop like a business —
     read_time: 10,
     published_at: '2024-02-28T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1200&q=80',
   },
 
   // 6 — Shipping
@@ -538,7 +538,7 @@ Shipping is boring. But getting it right is one of the highest-leverage things y
     read_time: 7,
     published_at: '2024-03-08T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1530482054429-cc491f61333b?w=1200&q=80',
   },
 
   // 7 — Branding
@@ -622,7 +622,7 @@ Every decision in your shop is a branding decision: the words in your listings, 
     read_time: 8,
     published_at: '2024-03-19T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1634986666676-ec8fd927c23d?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80',
   },
 
   // 8 — Social Media / TikTok
@@ -708,7 +708,7 @@ The potential is genuinely extraordinary. Sellers have reported going from $500/
     read_time: 6,
     published_at: '2024-04-02T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=1200&q=80',
   },
 
   // 9 — Holidays
@@ -878,7 +878,7 @@ Each listing is a lottery ticket — you don't always know in advance which ones
     read_time: 8,
     published_at: '2024-04-28T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1593510987459-9a1489817a3b?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
   },
 
   // 11 — AI Tools for Etsy Sellers
@@ -1030,7 +1030,7 @@ Star Seller isn't everything — great products and strong SEO still matter more
     read_time: 8,
     published_at: '2026-02-24T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=1200&q=80',
   },
 
   // 13 — Offsite Ads
@@ -1102,7 +1102,7 @@ Offsite Ads isn't a perfect program. But sellers who've adjusted their pricing t
     read_time: 8,
     published_at: '2026-03-05T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80',
   },
 
   // 14 — Etsy vs TikTok Shop
