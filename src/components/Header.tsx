@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-const categories = ['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories', 'Courses']
+const categories = ['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories', 'Courses', 'Community']
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -39,7 +39,7 @@ export default function Header() {
           {categories.map(cat => (
             <Link
               key={cat}
-              href={cat === 'Courses' ? '/courses' : `/category/${cat.toLowerCase()}`}
+              href={cat === 'Courses' ? '/courses' : cat === 'Community' ? '/community' : `/category/${cat.toLowerCase()}`}
               className="hover:text-[#C4612C] transition-colors"
             >
               {cat}
@@ -54,7 +54,7 @@ export default function Header() {
               {categories.map(cat => (
                 <Link
                   key={cat}
-                  href={cat === 'Courses' ? '/courses' : `/category/${cat.toLowerCase()}`}
+                  href={cat === 'Courses' ? '/courses' : cat === 'Community' ? '/community' : `/category/${cat.toLowerCase()}`}
                   className="text-gray-700 font-medium hover:text-[#C4612C]"
                   onClick={() => setMobileOpen(false)}
                 >
