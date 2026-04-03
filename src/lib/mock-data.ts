@@ -99,7 +99,7 @@ Etsy SEO in 2026 rewards the same thing it always has: shops that genuinely serv
     read_time: 8,
     published_at: '2026-04-03T10:00:00Z',
     featured: true,
-    cover_image: 'https://image.pollinations.ai/prompt/Flat%20lay%20of%20a%20laptop%20showing%20an%20Etsy%20shop%20dashboard%2C%20surrounded%20by%20small%20handmade%20products%20like%20ceramic%20mugs%20and%20jewelry%2C%20sticky%20notes%20with%20SEO%20keywords%20written%20on%20them%2C%20a%20cup%20of%20coffee%2C%20warm%20natural%20light%2C%20overhead%20shot%2C%20warm%20orange%20and%20cream%20color%20palette%2C%20editorial%20magazine%20style%2C%20clean%20and%20minimal?width=1200&height=800&seed=42&nologo=true',
+    cover_image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80',
   },
 
   // 2 — Pricing
