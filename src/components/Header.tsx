@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-const categories = ['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories', 'Courses', 'Community']
+const categories = ['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories', 'Digital', 'Courses', 'Community']
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)

@@ -13,6 +13,7 @@ const categoryColors: Record<string, string> = {
   Pricing: 'category-Pricing',
   Photography: 'category-Photography',
   Stories: 'category-Stories',
+  Digital: 'category-Digital',
 }
 
 export default function ArticleCard({ article, featured = false }: ArticleCardProps) {

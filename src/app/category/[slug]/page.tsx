@@ -2,7 +2,7 @@ import { getArticlesByCategory } from '@/lib/articles'
 import ArticleCard from '@/components/ArticleCard'
 import { notFound } from 'next/navigation'
 
-const categories = ['growth', 'marketing', 'pricing', 'photography', 'stories']
+const categories = ['growth', 'marketing', 'pricing', 'photography', 'stories', 'digital']
 
 const categoryDescriptions: Record<string, string> = {
   growth: 'SEO strategies, listing optimization, and tactics to get more eyes on your shop.',
@@ -10,6 +10,7 @@ const categoryDescriptions: Record<string, string> = {
   pricing: 'The formulas, frameworks, and mindset shifts to price your work with confidence.',
   photography: 'How to take scroll-stopping product photos with any camera or phone.',
   stories: 'Real stories from real sellers — the wins, the struggles, and the lessons.',
+  digital: 'Pricing, listings, mockups, and product ideas for Etsy digital download sellers.',
 }
 
 export async function generateStaticParams() {

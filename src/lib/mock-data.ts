@@ -1178,4 +1178,501 @@ The sellers who are most vulnerable in 2026 are those 100% dependent on Etsy sea
     featured: false,
     cover_image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&q=80',
   },
+
+  // 15 — Digital: Pricing digital downloads
+  {
+    id: '15',
+    slug: 'pricing-digital-downloads-etsy',
+    title: 'How to Price Your Digital Downloads on Etsy (Without Underselling)',
+    excerpt: 'Most digital sellers price too low and never recover. Here\'s the framework to find a price that reflects your work and actually converts.',
+    content: `# How to Price Your Digital Downloads on Etsy (Without Underselling)
+
+Digital products are one of the most underpriced categories on Etsy. It's easy to understand why — there's no material cost per sale, so sellers feel like they have no justification for charging much. That logic is wrong, and it's quietly killing the profitability of thousands of shops.
+
+The value of a digital product isn't the cost of the paper or ink that doesn't exist. It's the hours you spent creating it, the skill you developed to make it possible, and the transformation it delivers to the buyer. Price from that foundation.
+
+## The Real Costs Behind a Digital Product
+
+Before you set any price, account for what actually went into your product:
+
+**Creation time.** How many hours did you spend designing, writing, testing, or refining? Multiply that by what your time is actually worth — not minimum wage, but a rate that reflects your skill. A graphic designer who spent 8 hours building a Canva template set shouldn't price it at $3.
+
+**Tool subscriptions.** Canva Pro, Adobe Creative Cloud, Lightroom, Procreate — these have monthly costs. They belong in your pricing calculation as overhead.
+
+**Research and learning.** If you spent time studying your niche, researching what buyers need, and developing your concept, that work has value too.
+
+**Platform fees.** Etsy charges a $0.20 listing fee plus 6.5% transaction fee plus payment processing (typically 3–4%). On a $5 sale, you're keeping roughly $4.10. On a $12 sale, roughly $9.80. The math favors higher prices significantly.
+
+## What the Market Will Actually Bear
+
+Research isn't optional — it's the foundation of good pricing. Spend 30 minutes searching your product type on Etsy. Filter by "Top Customer Reviews" and look at what the well-reviewed shops are charging. Don't look at the lowest price; look at the price range where quality sellers sit.
+
+A few things you'll typically find:
+
+- Buyers don't automatically choose the cheapest option. A $2 printable planner looks suspicious next to a $14 one with professional mockups and 200 five-star reviews.
+- The $5–$15 range converts well for most single digital products. Bundles and multi-file sets can reasonably go to $25–$45.
+- A price that's too low signals low value before the buyer even sees your product. You are competing on perceived quality, not just price.
+
+## Stop Thinking Per-File, Start Thinking Per-Value
+
+The most damaging pricing habit for digital sellers is pricing based on what they're delivering (one PDF file, three PNG files) instead of what the buyer gets from it.
+
+What does the buyer actually receive? A $9 wedding invitation template isn't selling a Canva file — it's selling the ability to send professional, beautiful invitations without hiring a designer for $400. Price accordingly.
+
+A $12 budget planner spreadsheet is selling financial clarity and the end to the anxiety of not knowing where money goes. That's worth $12 minimum.
+
+Reframe every product: what problem does it solve, what time does it save, what would the alternative cost the buyer?
+
+## A Simple Pricing Formula
+
+Here's a starting framework:
+
+1. **Calculate your floor:** (Total creation time × hourly rate) + tool costs + expected Etsy fees = minimum acceptable price.
+2. **Research the ceiling:** Find the top 10 similar products with strong reviews. Note the price range.
+3. **Position yourself:** New shops should sit in the mid-range initially (not the bottom) and move up as reviews accumulate. Established shops can charge at or above market rate.
+
+If your floor is higher than the market ceiling, one of three things is true: your niche is too price-sensitive (consider pivoting), your creation process is inefficient (it gets faster), or your product quality isn't yet commanding a premium (invest in better design).
+
+## Bundling Is Your Best Revenue Lever
+
+Individual files are hard to price high without feeling expensive. Bundles change the math entirely.
+
+A single Lightroom preset might sell for $6–$9. A pack of 12 presets with a cohesive aesthetic can sell for $24–$35. The creation time for the pack isn't 12× longer than one preset, but the perceived value is dramatically higher.
+
+Look at your existing products and ask what natural bundles exist. Seasonal planners can bundle by quarter. SVG files can bundle by theme. Printable art can bundle as a gallery wall set. Price bundles at 2–2.5× your single-product price and watch average order value climb.
+
+## Raising Prices Without Losing Sales
+
+If you've been underpricing, raising prices feels terrifying. Here's what actually happens: most well-reviewed shops that raise prices see little to no drop in conversion rate, and sometimes see conversion improve because the higher price signals higher quality.
+
+The best time to raise prices is after you have 10+ positive reviews. The reviews are doing the trust-building work; the price just needs to match the credibility you've already established.
+
+Raise in 20–30% increments rather than doubling overnight. Give it 30 days and track conversion. In most niches, you'll find a sweet spot that maximizes revenue per sale without hurting volume.`,
+    category: 'Digital',
+    author: 'Sarah Chen',
+    read_time: 7,
+    published_at: '2026-03-30T09:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
+  },
+
+  // 16 — Digital: Perfect Etsy listing
+  {
+    id: '16',
+    slug: 'perfect-etsy-listing-digital-products',
+    title: 'The Perfect Etsy Listing for Digital Products — Title, Tags & Description',
+    excerpt: 'Digital product listings have unique SEO challenges. Here\'s the exact structure that drives traffic and converts browsers into buyers.',
+    content: `# The Perfect Etsy Listing for Digital Products — Title, Tags & Description
+
+Digital product listings require a slightly different SEO approach than physical products. Buyers search differently, the competition is different, and the description has to work harder because there's no tangible item to hold or feel. Get these three elements right and your listings will work for you around the clock.
+
+## Titles: Lead with What the Buyer Searches
+
+Your title's first 40 characters are the most important — that's what shows in search results before the text gets cut off. For digital products, the first phrase should answer the question buyers are typing.
+
+Buyers searching for digital products on Etsy tend to search for what the file *does*, not what it is:
+
+- "Wedding budget spreadsheet Google Sheets" — not just "budget spreadsheet"
+- "Printable meal planner weekly A4 instant download" — not just "meal planner"
+- "Editable resume template Canva modern minimalist" — not just "resume template"
+
+**The elements of a strong digital product title:**
+1. Primary keyword phrase (what buyers type)
+2. File type or platform if relevant (Canva, Google Sheets, SVG, PDF)
+3. Format detail (A4, A5, US Letter, instant download)
+4. Secondary keyword phrase or use case
+
+**Weak:** "Digital Planner Printable PDF Cute"
+**Strong:** "Weekly Meal Planner Printable PDF — Editable Canva Template, A4 & US Letter, Instant Download"
+
+The strong version answers three questions a buyer might have: Can I edit it? What sizes are included? Do I get it right away?
+
+## Tags: Cover the Formats, Occasions, and Platforms
+
+With 13 tags available, digital products give you a specific opportunity most sellers miss: tagging the *format* and *platform* alongside the content.
+
+**Category tags (3–4):** Describe the product type from multiple angles.
+"weekly meal planner," "printable meal planner," "food planning template"
+
+**Format/platform tags (2–3):** These are highly searched for digital items.
+"canva template," "editable pdf," "google sheets template," "instant download printable"
+
+**Occasion/use tags (2–3):** Why is someone buying this?
+"meal prep planning," "healthy eating tracker," "family dinner planner"
+
+**Audience tags (1–2):** Who specifically wants this?
+"gift for foodie," "new homeowner gift"
+
+**Aesthetic tags (1–2):** Increasingly important as Etsy surfaces items by visual style.
+"minimalist planner," "neutral aesthetic," "clean design"
+
+Never repeat words across tags that are already in your title — you're wasting tag slots. Use tags to cover ground your title didn't.
+
+## File Names Matter More Than Most Sellers Realize
+
+When your buyer downloads from Etsy, they receive the actual file you uploaded. If that file is named "final_v3_USE THIS ONE.pdf" — that's what appears in their downloads folder. That's a bad buyer experience.
+
+More importantly, the file name is a small but real SEO signal. Name your files descriptively:
+- "SellerBuds_Weekly_Meal_Planner_A4.pdf"
+- "Canva_Resume_Template_Modern_Minimalist.pdf"
+
+Keep it readable, include your shop name or brand, and include the key product descriptor. Tools like Taggy AI can generate optimized file names alongside your titles and tags automatically.
+
+## Descriptions: Practical Information First, Story Second
+
+Digital product buyers have specific questions. Answer them at the top of your description, before anything else:
+
+**1. What exactly is included?**
+"This listing includes: 1 PDF (A4), 1 PDF (US Letter), 1 editable Canva template link. All files are delivered via instant download immediately after purchase."
+
+**2. What software/app do they need?**
+"The Canva template requires a free Canva account. No Adobe software needed. The PDF version can be printed as-is."
+
+**3. How do they access the files?**
+"After purchase, you'll receive a download link on your order confirmation page and by email. Files are also always accessible in your Etsy account under Purchases."
+
+**4. What can they do with it? (License)**
+"For personal use only. Not for resale or redistribution."
+
+After answering these questions, you can add a few lines about the design inspiration, your shop, or relevant use cases. But the practical information comes first — buyers who don't find answers to basic questions simply don't convert.
+
+## The One Element Most Digital Listings Skip
+
+The "Item details" section (attributes) is frequently ignored on digital listings. Fill it out. Etsy uses attributes for filtering and for populating certain search result features. At minimum, fill in:
+
+- Primary color (for visual items)
+- File type (under "digital file type")
+- Occasion (if applicable)
+
+It takes two minutes and gives your listing additional fields that Etsy's algorithm uses to match buyers.
+
+## Thumbnail Strategy for Digital Products
+
+Your first photo needs to show the product as it will actually look — either printed out in a real environment or displayed on a device. Pure file screenshots rarely convert.
+
+Show the planner laid on a desk. Show the resume on a laptop screen. Show the printable art framed on a wall. Buyers are buying the end result, not the file. Sell them that vision in your first image.`,
+    category: 'Digital',
+    author: 'Marcus Webb',
+    read_time: 8,
+    published_at: '2026-03-29T10:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80',
+  },
+
+  // 17 — Digital: Mockups
+  {
+    id: '17',
+    slug: 'create-mockups-digital-products',
+    title: 'How to Create Mockups That Sell Your Digital Products',
+    excerpt: 'The gap between a $3 and a $15 digital product is often just the mockup. Here\'s how to create product images that make buyers click.',
+    content: `# How to Create Mockups That Sell Your Digital Products
+
+A screenshot of your PDF will not sell your product. A photo of your printable art displayed in a real room will. This distinction is worth revisiting, because it explains why two similar digital products can have wildly different conversion rates.
+
+Mockups create the visual bridge between "a file that exists on a computer" and "something I want in my life." Your job as a digital seller is to build that bridge as compellingly as possible.
+
+## What Makes a Mockup Work
+
+Not all mockups are equal. The ones that convert share a few traits:
+
+**They show the product in real use.** A meal planner mockup that shows the PDF on a phone screen with a coffee cup beside it tells a story. A flat screenshot with no context tells nothing.
+
+**The style matches the buyer's aspirational identity.** If you're selling minimalist planners, your mockup should feature a clean desk, neutral tones, and simple props. If you're selling bold wedding invitations, the mockup should feel elegant and celebratory. Your aesthetic signals who the product is for.
+
+**The product itself is clearly legible.** Don't let the lifestyle styling overpower the actual product. Buyers need to see the layout, the fonts, the design quality. If your product is obscured by props or blurred by depth of field, you're hiding what you're selling.
+
+**Resolution is high enough to zoom.** Buyers zoom in. Your mockup needs to hold up at 2× zoom or you'll lose sales to doubt.
+
+## Free and Affordable Mockup Tools
+
+**Canva** (free tier available) has a growing library of device and print mockups built directly into the design editor. For basic phone screens, laptop displays, and framed print mockups, Canva's built-in options are surprisingly usable without any additional cost.
+
+**Smartmockups** (free tier + paid) is specifically built for creating high-quality device and print mockups. Upload your design, choose a scene, download. The free tier covers enough variety for most digital sellers starting out.
+
+**Creative Market and Etsy** (yes, buy mockups on Etsy) sell mockup templates — typically Photoshop files or Canva templates — at $5–$20. For specialized products like invitations, wall art, or stationery, buying a professional mockup template that matches your aesthetic is worth every dollar. One good mockup set can serve you for dozens of listings.
+
+**Your own phone and a printed copy.** For printable products, the most authentic mockup is printing your file at home and photographing it in a real environment. A printed planner on a real desk, with real light, looks more genuine than any digital mockup — and buyers feel the difference.
+
+## The Essential Mockup Set for a Digital Listing
+
+Most high-converting digital listings include 4–6 photos. Here's how to think about each one:
+
+**Photo 1 (thumbnail) — The lifestyle hero.** Your best, most contextually rich image. This is what shows in search results and determines your click-through rate. A printable art piece framed on a white wall. A resume template on a MacBook. A planner spread open on a desk with morning coffee.
+
+**Photo 2 — The full design view.** Show the entire product clearly without any styling. Buyers who clicked on your thumbnail now want to see what they're actually getting. Clean background, full view, good contrast.
+
+**Photo 3 — The detail close-up.** Zoom in on your best design element — the typography, the layout logic, the decorative detail that makes your product distinctive. This builds confidence that the design quality holds up.
+
+**Photo 4 — The "what's included" graphic.** A simple graphic (easily made in Canva) showing all the files in the download. "Includes: PDF (A4 + US Letter) + Editable Canva Template." This single image reduces the most common pre-purchase question and lifts conversion.
+
+**Photo 5 (optional) — In-use or printed.** Show it printed, framed, displayed, used. For planners: filled in by a real person. For art: hanging on a wall. For invitations: laid on a styled table.
+
+## A Common Mistake: Style Mismatch
+
+Your mockup style should match your brand identity consistently across all listings. If half your listings use bright, colorful mockups and the other half use muted Scandinavian-style setups, your shop looks like two different stores. Buyers form trust through consistency.
+
+Pick a visual direction and stick to it across all your mockups: same color palette, similar lighting style, similar prop aesthetic. This shop-wide cohesion is what separates stores that look like businesses from stores that look like side projects.
+
+## How Often Should You Update Mockups?
+
+When a listing has good traffic but low conversion (above 2% views but below 1% purchases), the mockup is often the culprit. Before giving up on a well-keyworded listing, swap the thumbnail and give it 30 days. Mockup refreshes are one of the highest-ROI improvements you can make to underperforming listings.`,
+    category: 'Digital',
+    author: 'Jamie Okoye',
+    read_time: 6,
+    published_at: '2026-03-28T11:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1542744095-291d1f67b221?w=1200&q=80',
+  },
+
+  // 18 — Digital: Instant download vs made to order
+  {
+    id: '18',
+    slug: 'instant-download-vs-made-to-order-digital',
+    title: 'Instant Download vs Made to Order — Which Is Right for Your Digital Shop?',
+    excerpt: 'Two very different business models hide under the "digital products" umbrella. Choosing the right one changes your pricing, your workload, and your growth ceiling.',
+    content: `# Instant Download vs Made to Order — Which Is Right for Your Digital Shop?
+
+When most people think of selling digital products on Etsy, they imagine uploading a file once and collecting passive income indefinitely. That's instant download — and it's a real model. But a large and profitable segment of digital Etsy sellers work very differently: they create customized digital files to order, one customer at a time.
+
+Both models work. They just work in completely different ways.
+
+## Instant Download: What It Is and Who It's For
+
+In an instant download listing, you upload your completed file to Etsy before you publish. When a buyer purchases, Etsy delivers the file automatically — no action required from you.
+
+**Best for:**
+- Products that don't need personalization (printable wall art, planners, templates, presets)
+- Sellers who want a passive or semi-passive income stream
+- Shops focused on volume over per-order value
+- Anyone who wants to step away from their shop without orders piling up
+
+**Revenue model:** Lower price per sale, higher volume potential. A good instant download listing can sell 5–20 times per week indefinitely with zero additional work after the initial creation.
+
+**The real advantage** is compounding. Every listing you add works simultaneously. A shop with 50 well-optimized instant download listings can generate meaningful passive income because all 50 are discoverable and sellable at the same time.
+
+**The real challenge** is competition. Popular instant download categories (planners, SVG files, printable art) are extremely saturated. Standing out requires strong SEO, excellent mockups, and a clear design aesthetic.
+
+## Made to Order: What It Is and Who It's For
+
+In a made-to-order digital listing, the buyer provides information — a name, a date, specific colors, their company details — and you create a customized version of the file for them. You deliver it manually, usually within 1–3 business days.
+
+**Best for:**
+- Products that require personalization (invitations, resumes, business cards, custom portraits, logos)
+- Sellers with strong design skills and the time to manage individual orders
+- Shops focused on higher average order value
+- Anyone who enjoys the customer interaction component
+
+**Revenue model:** Higher price per sale, lower volume. A custom wedding invitation suite might sell for $45–$120. Each sale requires 1–3 hours of work, but the margin is strong.
+
+**The real advantage** is pricing power. Customization justifies prices that no instant download can command. Buyers understand they're paying for your time and skill, not just a file.
+
+**The real challenge** is scalability. Your revenue is directly tied to your time. A sold-out week is good news and exhausting simultaneously. Growth requires raising prices, building a waitlist, or eventually hiring help.
+
+## The Hybrid Model (Often the Best of Both)
+
+Many successful digital shops operate both models strategically:
+
+- A base instant download template (low price, high volume) for buyers who want something now
+- A "customized version" made-to-order listing (higher price) for buyers who want it personalized
+
+This gives you passive income from the template while capturing higher-value orders from buyers who want personalization. The instant download listing also serves as a discovery vehicle — buyers find the affordable template and upgrade to custom.
+
+**Example:** A resume designer sells:
+- "Modern Resume Template - Canva, Instant Download, $12" → high-volume, passive
+- "Custom Resume Design - Personalized, 48-hour delivery, $65" → made-to-order, high-value
+
+The first drives traffic. The second drives profit per order.
+
+## How to Decide
+
+Ask yourself these questions:
+
+**Do you have the time for order management?** Made-to-order means managing conversations, revisions, deadlines, and delivery. If your schedule is inconsistent, instant download is more reliable.
+
+**Is your product category inherently personal?** Wedding stationery, baby announcements, business branding — buyers expect and want customization. Trying to sell these as pure instant downloads fights buyer expectations.
+
+**What are your revenue goals?** If you want $500/month passively, instant download is achievable with the right listing volume. If you want $3,000/month, made-to-order custom work can get there faster with fewer listings.
+
+**How competitive is your niche?** Highly saturated instant download categories (SVG files, printable art) are hard to break into. Made-to-order custom products in the same niche often face less direct competition because fewer sellers are willing to do the custom work.
+
+## One Thing Both Models Need
+
+Regardless of which model you choose, clear listing communication is non-negotiable. Buyers need to know immediately — in your title, your first photo, and the first paragraph of your description — whether they're getting an instant file or submitting a custom order. Confusion on this point generates refund requests, frustrated customers, and bad reviews. Clarity generates 5-star reviews.`,
+    category: 'Digital',
+    author: 'Rachel Torres',
+    read_time: 6,
+    published_at: '2026-03-27T09:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80',
+  },
+
+  // 19 — Digital: File protection
+  {
+    id: '19',
+    slug: 'protect-digital-files-etsy',
+    title: 'How to Protect Your Digital Files on Etsy',
+    excerpt: 'You can\'t fully prevent digital file theft — but you can make it much harder and protect yourself legally. Here\'s what actually works.',
+    content: `# How to Protect Your Digital Files on Etsy
+
+Every digital seller eventually asks the same question: what's stopping someone from buying my file once and sharing it with a hundred friends? The honest answer is: not much on the technical side. But that doesn't mean you're helpless, and it doesn't mean file protection isn't worth thinking about.
+
+Here's a realistic, practical guide to protecting your digital products — without paranoia, and without the false security of measures that don't actually work.
+
+## What You Cannot Realistically Stop
+
+Let's start with honesty. Once a digital file is in a buyer's hands, you cannot technically prevent them from sharing it. DRM (digital rights management) tools exist, but they don't work on standard PDFs, Canva templates, or image files — which covers the vast majority of Etsy digital products.
+
+What you can do is:
+- Make sharing inconvenient
+- Add visible markers that trace files back to the source
+- Protect your most valuable work legally
+- Respond effectively when infringement happens
+
+## Watermarking Preview Images
+
+Your listing photos should never show your full, clean file at full resolution. Always show either:
+- A low-resolution preview (72 DPI, downsized)
+- A preview with a subtle watermark in a corner or center
+- A styled mockup where the full file isn't clearly extracted
+
+This protects your preview images from being used directly — people occasionally screenshot Etsy listing photos and use them without purchasing. A watermark on previews makes this obvious theft rather than ambiguous use.
+
+For your actual delivered files, watermarks are usually not appropriate — the buyer paid for a clean product. But some sellers add a very subtle shop URL in small text at the bottom of printable files. This is a judgment call based on your product type.
+
+## Adding a Visible Copyright Notice
+
+Every delivered file should include a copyright notice. For PDFs and printable products, add a small line in the footer:
+"© 2026 YourShopName. For personal use only. Not for resale or redistribution."
+
+For SVG and cut files, include a text file in the download zip with the same notice. For Canva templates, include the license terms in your listing description clearly.
+
+This won't stop determined bad actors, but it:
+- Establishes your ownership clearly
+- Puts buyers on notice of the terms
+- Creates a paper trail if you ever need to pursue infringement
+
+## Using Zip Files Strategically
+
+Delivering files inside a .zip archive instead of as individual loose files adds a small layer of friction. More importantly, it lets you include a README or license text file that buyers must at least navigate past.
+
+Your zip file can include:
+- "LICENSE.txt" — your usage terms
+- "README.txt" — instructions, support contact, and a reminder that files are for personal use
+- The actual product files
+
+This is standard practice in professional digital product sales and signals to legitimate buyers that you take your work seriously.
+
+## Monitoring for Unauthorized Resales
+
+The more likely threat isn't file-sharing among friends — it's someone buying your files and reselling them on their own Etsy shop or on other platforms.
+
+Set up a Google Alert for your product names. Periodically search your most distinctive product names or descriptions on Etsy, Gumroad, and Creative Fabrica. If you find your work being sold by someone else, document it with screenshots and report it to Etsy using their IP infringement report form.
+
+Etsy takes IP claims seriously. Shops that repeatedly infringe get removed. File a formal DMCA takedown if a platform doesn't respond — this is straightforward even without a lawyer.
+
+## Etsy's Download Limits
+
+Etsy limits the number of times a buyer can download purchased files — currently capped at a small number within a set timeframe. This means a buyer who wants to share widely would need to be deliberately circumventing a system, which most casual buyers won't bother with.
+
+This is a meaningful deterrent against casual sharing even though it won't stop someone determined.
+
+## What Actually Protects You Most
+
+Counterintuitively, the best protection for digital products is a strong, recognizable brand combined with a consistently updated product catalog.
+
+A recognizable brand means buyers who receive a pirated copy still know who made it — and many will find and buy from you legitimately. Strong branding turns potential piracy into free advertising.
+
+Regularly updating your products (adding new templates, new color variations, new formats) means your catalog is always ahead of anyone sharing old versions. The current, updated version is only available from you.
+
+Invest more energy in creating great products and building your shop's reputation than in worrying about file theft. The sellers who get hurt most by piracy are the ones with one or two products and no brand equity. The ones least affected are the prolific creators whose work is everywhere — and whose shops are the obvious source.`,
+    category: 'Digital',
+    author: 'David Kim',
+    read_time: 6,
+    published_at: '2026-03-25T14:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?w=1200&q=80',
+  },
+
+  // 20 — Digital: 10 digital product ideas
+  {
+    id: '20',
+    slug: 'digital-product-ideas-etsy',
+    title: '10 Digital Product Ideas That Sell Year-Round on Etsy',
+    excerpt: 'Not all digital products are created equal. These 10 categories have consistent, evergreen demand — and room for new sellers to compete.',
+    content: `# 10 Digital Product Ideas That Sell Year-Round on Etsy
+
+The best digital products aren't the ones that trend for a season — they're the ones that solve a problem people have every month of the year. Here are ten categories with proven, durable demand on Etsy, along with what makes each one worth entering and what it takes to compete.
+
+## 1. Printable Planners and Organizers
+
+Weekly planners, meal planners, budget trackers, habit trackers, homeschool planners — people search for these constantly because the need to organize life doesn't have an off-season. The category is competitive, but buyers are willing to pay more for a design that matches their aesthetic and works the way they think.
+
+**What sells:** Undated formats (so files don't expire), editable versions (Canva or fillable PDF), and niche-specific planners (fitness, ADHD-friendly, minimalist, colorful).
+
+## 2. Canva Templates
+
+Business owners, coaches, content creators, and social media managers buy Canva templates to post consistently without being designers. Instagram carousel templates, media kit templates, ebook templates, and presentation decks are evergreen.
+
+**What sells:** Templates in coordinated sets rather than individual files. Buyers want a cohesive brand kit they can use across multiple formats.
+
+## 3. SVG Cut Files for Crafters
+
+Crafters using Silhouette and Cricut machines buy SVG files constantly to create physical products — shirts, mugs, signs, cards. Popular SVG themes include seasonal designs, quotes, monograms, and florals.
+
+**What sells:** Bundles by theme (farmhouse SVG bundle, teacher appreciation bundle) and files that are tested to cut cleanly. Quality and clean paths matter more than artistic complexity.
+
+## 4. Lightroom Presets and Photo Filters
+
+Photographers, bloggers, and content creators use Lightroom presets to create a consistent visual style efficiently. Demand is highest for mobile-compatible presets (Lightroom Mobile is free) because more buyers can use them without a desktop subscription.
+
+**What sells:** Presets with a cohesive aesthetic story — "moody film," "airy bright," "warm golden hour" — and accurate before/after preview photos.
+
+## 5. Printable Wall Art
+
+Quotes, abstract art, botanical prints, typography — printable wall art is one of the largest digital categories on Etsy. The barrier to entry is lower, but so is the average price. To compete, focus on a specific aesthetic niche or room type.
+
+**What sells:** Gallery wall sets (3 or 5 coordinating prints), niche themes (nursery art, kitchen prints, bathroom quotes), and multiple size options included in one purchase.
+
+## 6. Resume and Cover Letter Templates
+
+Job seekers buy resume templates year-round, with spikes in January and after summer. Canva and Google Docs formats sell best because they're accessible without a paid software subscription.
+
+**What sells:** Clean, ATS-friendly (applicant tracking system) layouts that look professional without being over-designed. Industry-specific versions (creative resume vs. corporate resume) serve niche audiences with less competition.
+
+## 7. Invitation and Stationery Templates
+
+Editable Canva invitation templates for birthdays, baby showers, weddings, and holidays sell consistently. The made-to-order version (where you customize the text for the buyer) commands higher prices but requires active work per order.
+
+**What sells:** Templates that require minimal editing to customize — clear instructions, easy-to-swap text fields, and multiple color options provided.
+
+## 8. Budget and Finance Spreadsheets
+
+Google Sheets and Excel budget templates are among the highest-converting digital products because the perceived value is immediate — buyers know exactly what problem they're solving. Monthly budget trackers, debt payoff planners, and savings goal trackers all perform well.
+
+**What sells:** Templates with built-in formulas that actually work, clear visual design (not just a raw spreadsheet), and video instructions that reduce support questions.
+
+## 9. Clip Art and Graphic Elements
+
+Individual illustrations, icon sets, watercolor elements, and digital stickers are bought by other creators — crafters, designers, teachers, bloggers. Because buyers use them commercially, they're willing to pay for clearly licensed, high-quality files.
+
+**What sells:** Cohesive sets with a consistent style (not random assortments), transparent PNG files, and a clear commercial use license included.
+
+## 10. Educational Printables for Teachers and Parents
+
+Classroom worksheets, flashcards, activity pages, and homeschool curriculum supplements are in consistent demand from teachers and homeschooling parents. This category benefits from repeat buyers — an educator who loves your math worksheets will buy your reading worksheets too.
+
+**What sells:** Grade-level specific content (kindergarten vs. 3rd grade), curriculum-aligned content, and editable versions teachers can customize with their own names or standards.
+
+## Choosing Your Category
+
+The best digital product for you sits at the intersection of three things: a niche with proven demand, your existing skills or tools, and enough market room for a new competitor. Start by searching each of these categories on Etsy and studying what the top-reviewed shops are doing well — and what gaps exist that you could fill.
+
+The sellers who struggle are the ones who chase whatever seems trendy. The ones who build real income are the ones who pick a category, commit to it for six months, and consistently improve their products, mockups, and SEO.`,
+    category: 'Digital',
+    author: 'Emma Lawson',
+    read_time: 8,
+    published_at: '2026-03-20T10:00:00Z',
+    featured: false,
+    cover_image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80',
+  },
 ]

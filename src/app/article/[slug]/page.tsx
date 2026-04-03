@@ -24,6 +24,7 @@ const categoryColors: Record<string, string> = {
   Pricing: 'category-Pricing',
   Photography: 'category-Photography',
   Stories: 'category-Stories',
+  Digital: 'category-Digital',
 }
 
 // Very simple markdown-to-HTML converter (handles # headers, ** bold, \n\n paragraphs)
@@ -68,7 +69,8 @@ export default async function ArticlePage({ params }: { params: { slug: string }
   if (!article) notFound()
 
   const contentHtml = renderContent(article.content)
-  const [beforeCta, afterCta] = splitAfterNthParagraph(contentHtml, 3)
+  const isDigital = article.category === 'Digital'
+  const [beforeCta, afterCta] = splitAfterNthParagraph(contentHtml, isDigital ? 2 : 3)
 
   return (
     <div>
@@ -124,8 +126,11 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         {/* Taggy AI inline CTA */}
         <div className="not-prose my-8 rounded-xl px-5 py-4 flex items-center justify-between gap-4 flex-wrap" style={{ backgroundColor: '#FFF0E8' }}>
           <p className="text-sm text-gray-700 leading-snug">
-            <span className="font-semibold text-gray-900">Writing your listings manually?</span>{' '}
-            Taggy AI generates your titles, tags &amp; descriptions in seconds — free.
+            {isDigital ? (
+              <><span className="font-semibold text-gray-900">Selling digital products?</span>{' '}Taggy AI generates perfect titles, tags, file names and descriptions for your listings — free.</>
+            ) : (
+              <><span className="font-semibold text-gray-900">Writing your listings manually?</span>{' '}Taggy AI generates your titles, tags &amp; descriptions in seconds — free.</>
+            )}
           </p>
           <a
             href="https://taggy-ai.com"
