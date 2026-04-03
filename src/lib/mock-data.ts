@@ -99,7 +99,7 @@ Etsy SEO in 2026 rewards the same thing it always has: shops that genuinely serv
     read_time: 8,
     published_at: '2026-04-03T10:00:00Z',
     featured: true,
-    cover_image: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80',
   },
 
   // 2 — Pricing
