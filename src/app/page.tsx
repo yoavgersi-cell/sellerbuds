@@ -71,22 +71,61 @@ export default async function HomePage() {
           <h2 className="font-serif text-2xl font-bold text-gray-800">Tools We Love</h2>
           <div className="flex-1 h-px bg-orange-100"></div>
         </div>
-        <div className="max-w-sm">
-          <div className="border border-orange-100 rounded-2xl p-6 bg-[#FFF8F4]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {/* Taggy AI */}
+          <div className="border border-orange-100 rounded-2xl p-6 bg-[#FFF8F4] flex flex-col">
             <div className="flex items-center justify-between mb-3">
-              <h3 className="font-serif text-xl font-bold text-gray-900">Taggy AI</h3>
-              <span className="text-xs font-semibold text-[#C4612C] bg-orange-100 px-2.5 py-1 rounded-full">Free Tool</span>
+              <h3 className="font-serif text-lg font-bold text-gray-900">Taggy AI</h3>
+              <span className="text-xs font-semibold text-[#C4612C] bg-orange-100 px-2.5 py-1 rounded-full">Free</span>
             </div>
-            <p className="text-gray-600 text-sm leading-relaxed mb-5">
+            <p className="text-gray-600 text-sm leading-relaxed mb-5 flex-1">
               Generate perfect Etsy titles, descriptions, tags, and file names in seconds. Just fill in a few details about your product.
             </p>
             <a
               href="https://taggy-ai.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-[#C4612C] text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-[#a8501e] transition-colors"
+              className="inline-block bg-[#C4612C] text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-[#a8501e] transition-colors text-center"
             >
               Try Taggy Free →
+            </a>
+          </div>
+
+          {/* eRank */}
+          <div className="border border-orange-100 rounded-2xl p-6 bg-white flex flex-col">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-serif text-lg font-bold text-gray-900">eRank</h3>
+              <span className="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">Free Tier</span>
+            </div>
+            <p className="text-gray-600 text-sm leading-relaxed mb-5 flex-1">
+              The go-to keyword research tool for Etsy sellers. Find what buyers are actually searching, audit your listings, and track your rankings over time.
+            </p>
+            <a
+              href="https://erank.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-gray-200 text-gray-700 text-sm font-medium px-5 py-2.5 rounded-full hover:border-[#C4612C] hover:text-[#C4612C] transition-colors text-center"
+            >
+              Try eRank Free →
+            </a>
+          </div>
+
+          {/* Canva */}
+          <div className="border border-orange-100 rounded-2xl p-6 bg-white flex flex-col">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-serif text-lg font-bold text-gray-900">Canva</h3>
+              <span className="text-xs font-semibold text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-full">Free Tier</span>
+            </div>
+            <p className="text-gray-600 text-sm leading-relaxed mb-5 flex-1">
+              Design your shop banner, product mockups, social posts, and packaging inserts — no design skills needed. The free plan covers everything most Etsy sellers need.
+            </p>
+            <a
+              href="https://canva.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block border border-gray-200 text-gray-700 text-sm font-medium px-5 py-2.5 rounded-full hover:border-[#C4612C] hover:text-[#C4612C] transition-colors text-center"
+            >
+              Try Canva Free →
             </a>
           </div>
         </div>
