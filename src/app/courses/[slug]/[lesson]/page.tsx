@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: { slug: string; les
 function renderContent(text: string) {
   return text
     .split('\n\n')
-    .map((para, i) => {
+    .map((para) => {
       if (para.startsWith('**') && para.endsWith('**') && !para.slice(2).includes('**')) {
         return `<h3 class="font-serif text-xl font-bold text-gray-900 mt-6 mb-2">${para.slice(2, -2)}</h3>`
       }
