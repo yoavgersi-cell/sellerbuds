@@ -65,6 +65,33 @@ export default async function HomePage() {
         ))}
       </div>
 
+      {/* Tools We Love */}
+      <div className="mb-14">
+        <div className="flex items-center gap-4 mb-6">
+          <h2 className="font-serif text-2xl font-bold text-gray-800">Tools We Love</h2>
+          <div className="flex-1 h-px bg-orange-100"></div>
+        </div>
+        <div className="max-w-sm">
+          <div className="border border-orange-100 rounded-2xl p-6 bg-[#FFF8F4]">
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="font-serif text-xl font-bold text-gray-900">Taggy AI</h3>
+              <span className="text-xs font-semibold text-[#C4612C] bg-orange-100 px-2.5 py-1 rounded-full">Free Tool</span>
+            </div>
+            <p className="text-gray-600 text-sm leading-relaxed mb-5">
+              Generate perfect Etsy titles, descriptions, tags, and file names in seconds. Just fill in a few details about your product.
+            </p>
+            <a
+              href="https://taggy-ai.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-[#C4612C] text-white text-sm font-medium px-5 py-2.5 rounded-full hover:bg-[#a8501e] transition-colors"
+            >
+              Try Taggy Free →
+            </a>
+          </div>
+        </div>
+      </div>
+
       {/* Newsletter signup */}
       <NewsletterForm />
     </div>

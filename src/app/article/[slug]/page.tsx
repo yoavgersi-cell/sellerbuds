@@ -51,11 +51,24 @@ function processBold(text: string): string {
   return text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
 }
 
+function splitAfterNthParagraph(html: string, n: number): [string, string] {
+  let count = 0
+  let pos = 0
+  while (count < n) {
+    const idx = html.indexOf('</p>', pos)
+    if (idx === -1) break
+    pos = idx + 4
+    count++
+  }
+  return [html.slice(0, pos), html.slice(pos)]
+}
+
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug)
   if (!article) notFound()
 
   const contentHtml = renderContent(article.content)
+  const [beforeCta, afterCta] = splitAfterNthParagraph(contentHtml, 3)
 
   return (
     <div>
@@ -105,7 +118,28 @@ export default async function ArticlePage({ params }: { params: { slug: string }
       <div className="max-w-3xl mx-auto px-4 pb-16">
         <div
           className="prose prose-lg max-w-none prose-headings:font-serif prose-h1:text-3xl prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-p:text-gray-700 prose-p:leading-relaxed prose-strong:text-gray-900 prose-li:text-gray-700 prose-ol:my-4 prose-ul:my-4"
-          dangerouslySetInnerHTML={{ __html: contentHtml }}
+          dangerouslySetInnerHTML={{ __html: beforeCta }}
+        />
+
+        {/* Taggy AI inline CTA */}
+        <div className="not-prose my-8 rounded-xl px-5 py-4 flex items-center justify-between gap-4 flex-wrap" style={{ backgroundColor: '#FFF0E8' }}>
+          <p className="text-sm text-gray-700 leading-snug">
+            <span className="font-semibold text-gray-900">Writing your listings manually?</span>{' '}
+            Taggy AI generates your titles, tags &amp; descriptions in seconds — free.
+          </p>
+          <a
+            href="https://taggy-ai.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-semibold text-[#C4612C] hover:underline whitespace-nowrap"
+          >
+            Try it free →
+          </a>
+        </div>
+
+        <div
+          className="prose prose-lg max-w-none prose-headings:font-serif prose-h1:text-3xl prose-h2:text-2xl prose-h2:mt-8 prose-h2:mb-4 prose-p:text-gray-700 prose-p:leading-relaxed prose-strong:text-gray-900 prose-li:text-gray-700 prose-ol:my-4 prose-ul:my-4"
+          dangerouslySetInnerHTML={{ __html: afterCta }}
         />
 
         {/* Article footer */}
