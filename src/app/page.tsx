@@ -13,6 +13,7 @@ export default async function HomePage() {
   ])
 
   const gridArticles = allArticles.filter(a => !a.featured).slice(0, 8)
+  const filteredMostRead = mostRead.filter(a => a.id !== featured?.id)
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
@@ -35,9 +36,9 @@ export default async function HomePage() {
             Most Read
           </h2>
           <div className="flex flex-col gap-5">
-            {mostRead.map((article, i) => (
+            {filteredMostRead.map((article, i) => (
               <div key={article.id} className="flex gap-3 group">
-                <span className="font-serif text-3xl font-bold text-orange-100 leading-none mt-1 min-w-[2rem]">
+                <span className="font-serif text-3xl font-bold text-orange-200 leading-none mt-1 min-w-[2rem]">
                   {i + 1}
                 </span>
                 <div>

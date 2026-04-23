@@ -1,4 +1,4 @@
-import { getArticleBySlug, getArticles } from '@/lib/articles'
+import { getArticleBySlug, getArticles, getArticlesByCategory } from '@/lib/articles'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -12,9 +12,23 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug)
   if (!article) return {}
+  const ogImage = article.cover_image || 'https://images.unsplash.com/photo-1657256031812-4702fe316f1b?w=1200&q=80'
   return {
     title: `${article.title} — SellerBuds`,
     description: article.excerpt,
+    openGraph: {
+      title: `${article.title} — SellerBuds`,
+      description: article.excerpt,
+      type: 'article',
+      url: `https://www.sellerbuds.com/article/${article.slug}`,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: article.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${article.title} — SellerBuds`,
+      description: article.excerpt,
+      images: [ogImage],
+    },
   }
 }
 
@@ -67,6 +81,9 @@ function splitAfterNthParagraph(html: string, n: number): [string, string] {
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = await getArticleBySlug(params.slug)
   if (!article) notFound()
+
+  const categoryArticles = await getArticlesByCategory(article.category)
+  const relatedArticles = categoryArticles.filter(a => a.slug !== article.slug).slice(0, 3)
 
   const contentHtml = renderContent(article.content)
   const isDigital = article.category === 'Digital'
@@ -160,6 +177,39 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           <NewsletterForm />
         </div>
       </div>
+
+      {/* Related articles */}
+      {relatedArticles.length > 0 && (
+        <div className="border-t border-orange-100 mt-4">
+          <div className="max-w-3xl mx-auto px-4 py-12">
+            <h2 className="font-serif text-2xl font-bold text-gray-800 mb-6">You might also like</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+              {relatedArticles.map(related => (
+                <Link key={related.id} href={`/article/${related.slug}`} className="group">
+                  {related.cover_image && (
+                    <div className="relative aspect-[4/3] rounded-xl overflow-hidden mb-3">
+                      <Image
+                        src={related.cover_image}
+                        alt={related.title}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        sizes="(max-width: 640px) 100vw, 33vw"
+                      />
+                    </div>
+                  )}
+                  <span className={`category-badge ${categoryColors[related.category] || 'bg-gray-100 text-gray-600'} mb-2`}>
+                    {related.category}
+                  </span>
+                  <h3 className="font-serif text-base font-bold text-gray-900 leading-snug group-hover:text-[#C4612C] transition-colors mt-2">
+                    {related.title}
+                  </h3>
+                  <p className="text-xs text-gray-400 mt-1">{related.read_time} min read</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
