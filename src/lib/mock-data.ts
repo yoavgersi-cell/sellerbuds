@@ -99,7 +99,7 @@ Etsy SEO in 2026 rewards the same thing it always has: shops that genuinely serv
     read_time: 8,
     published_at: '2026-04-03T10:00:00Z',
     featured: true,
-    cover_image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1657256031812-4702fe316f1b?w=1200&q=80',
   },
 
   // 2 — Pricing
@@ -201,7 +201,7 @@ The sellers who are thriving on Etsy five years in are the ones who treated pric
     read_time: 6,
     published_at: '2024-01-22T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1760993333410-5df5e722e97e?w=1200&q=80',
   },
 
   // 3 — Photography
@@ -289,7 +289,7 @@ Avoid filters. Buyers can spot an over-filtered product photo immediately, and i
     read_time: 8,
     published_at: '2024-02-03T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1581591524425-c7e0978865fc?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1604688201108-e5cc7a51a670?w=1200&q=80',
   },
 
   // 4 — Marketing / Pinterest
@@ -372,7 +372,7 @@ Start today. The best time to plant a Pinterest strategy was when you opened you
     read_time: 9,
     published_at: '2024-02-14T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1511405732889-ce3d6256f366?w=1200&q=80',
   },
 
   // 5 — Seller Stories
@@ -456,7 +456,7 @@ The Etsy opportunity is real. It requires treating your shop like a business —
     read_time: 10,
     published_at: '2024-02-28T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1611956565880-10e29a417648?w=1200&q=80',
   },
 
   // 6 — Shipping
@@ -538,7 +538,7 @@ Shipping is boring. But getting it right is one of the highest-leverage things y
     read_time: 7,
     published_at: '2024-03-08T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1530482054429-cc491f61333b?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1769355104335-acef3aa4c9b6?w=1200&q=80',
   },
 
   // 7 — Branding
@@ -622,7 +622,7 @@ Every decision in your shop is a branding decision: the words in your listings, 
     read_time: 8,
     published_at: '2024-03-19T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1775737599962-fa2f0db12e4d?w=1200&q=80',
   },
 
   // 8 — Social Media / TikTok
@@ -708,7 +708,7 @@ The potential is genuinely extraordinary. Sellers have reported going from $500/
     read_time: 6,
     published_at: '2024-04-02T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1598358532244-6480b5c5ea1a?w=1200&q=80',
   },
 
   // 9 — Holidays
@@ -787,7 +787,7 @@ The sellers who have great holiday seasons two years in a row are the ones who d
     read_time: 9,
     published_at: '2024-04-15T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1544044880-7bff5a36a7e4?w=1200&q=80',
   },
 
   // 10 — Passive Income / Digital Downloads
@@ -878,7 +878,7 @@ Each listing is a lottery ticket — you don't always know in advance which ones
     read_time: 8,
     published_at: '2024-04-28T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1506645292803-579c17d4ba6a?w=1200&q=80',
   },
 
   // 11 — AI Tools for Etsy Sellers
@@ -953,7 +953,7 @@ The sellers who use AI well treat it as a drafting tool, not a publishing tool. 
     read_time: 7,
     published_at: '2026-02-10T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1768323286305-2fa2ad91c3cf?w=1200&q=80',
   },
 
   // 12 — Star Seller
@@ -1030,7 +1030,7 @@ Star Seller isn't everything — great products and strong SEO still matter more
     read_time: 8,
     published_at: '2026-02-24T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1633613286991-611fe299c4be?w=1200&q=80',
   },
 
   // 13 — Offsite Ads
@@ -1102,7 +1102,7 @@ Offsite Ads isn't a perfect program. But sellers who've adjusted their pricing t
     read_time: 8,
     published_at: '2026-03-05T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80',
   },
 
   // 14 — Etsy vs TikTok Shop
@@ -1176,7 +1176,7 @@ The sellers who are most vulnerable in 2026 are those 100% dependent on Etsy sea
     read_time: 9,
     published_at: '2026-03-18T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1619287032765-de47edc49091?w=1200&q=80',
   },
 
   // 15 — Digital: Pricing digital downloads
@@ -1253,7 +1253,7 @@ Raise in 20–30% increments rather than doubling overnight. Give it 30 days and
     read_time: 7,
     published_at: '2026-03-30T09:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1696041757914-a93784b5ccc6?w=1200&q=80',
   },
 
   // 16 — Digital: Perfect Etsy listing
@@ -1356,7 +1356,7 @@ Show the planner laid on a desk. Show the resume on a laptop screen. Show the pr
     read_time: 8,
     published_at: '2026-03-29T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1657812160299-6b656decd5b1?w=1200&q=80',
   },
 
   // 17 — Digital: Mockups
@@ -1421,7 +1421,7 @@ When a listing has good traffic but low conversion (above 2% views but below 1% 
     read_time: 6,
     published_at: '2026-03-28T11:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1542744095-291d1f67b221?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1764406562219-105937cc3f95?w=1200&q=80',
   },
 
   // 18 — Digital: Instant download vs made to order
@@ -1503,7 +1503,7 @@ Regardless of which model you choose, clear listing communication is non-negotia
     read_time: 6,
     published_at: '2026-03-27T09:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1588436556396-daf24ccd9111?w=1200&q=80',
   },
 
   // 19 — Digital: File protection
@@ -1590,7 +1590,7 @@ Invest more energy in creating great products and building your shop's reputatio
     read_time: 6,
     published_at: '2026-03-25T14:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1555421689-491a97ff2040?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1640863557875-4549a8beea73?w=1200&q=80',
   },
 
   // 20 — Digital: 10 digital product ideas
@@ -1673,6 +1673,6 @@ The sellers who struggle are the ones who chase whatever seems trendy. The ones 
     read_time: 8,
     published_at: '2026-03-20T10:00:00Z',
     featured: false,
-    cover_image: 'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=1200&q=80',
+    cover_image: 'https://images.unsplash.com/photo-1611398824316-945c74c47dc1?w=1200&q=80',
   },
 ]
