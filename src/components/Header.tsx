@@ -3,6 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 
 const categories = ['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories', 'Digital', 'Courses', 'Community']
+const START_HERE_HREF = '/start-here'
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
@@ -15,7 +16,13 @@ export default function Header() {
           <Link href="/" className="font-serif text-2xl md:text-3xl font-bold text-[#C4612C] tracking-tight">
             SellerBuds
           </Link>
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-3">
+            <Link
+              href={START_HERE_HREF}
+              className="text-sm font-semibold text-[#C4612C] border border-[#C4612C] px-4 py-2 rounded-full hover:bg-[#C4612C] hover:text-white transition-colors"
+            >
+              Start Here
+            </Link>
             <Link
               href="/newsletter"
               className="bg-[#C4612C] text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-[#a8501e] transition-colors"
@@ -51,6 +58,13 @@ export default function Header() {
         {mobileOpen && (
           <div className="md:hidden pb-4 border-t border-orange-100 mt-1 pt-4">
             <div className="flex flex-col gap-3">
+              <Link
+                href={START_HERE_HREF}
+                className="text-[#C4612C] font-semibold hover:underline"
+                onClick={() => setMobileOpen(false)}
+              >
+                ✦ Start Here
+              </Link>
               {categories.map(cat => (
                 <Link
                   key={cat}

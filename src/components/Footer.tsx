@@ -14,6 +14,9 @@ export default function Footer() {
           <div>
             <div className="font-semibold text-gray-800 mb-3 text-sm uppercase tracking-wide">Topics</div>
             <div className="flex flex-col gap-2">
+              <Link href="/start-here" className="text-[#C4612C] text-sm font-semibold hover:underline transition-colors">
+                ✦ Start Here
+              </Link>
               {['Growth', 'Marketing', 'Pricing', 'Photography', 'Stories'].map(cat => (
                 <Link key={cat} href={`/category/${cat.toLowerCase()}`} className="text-gray-500 text-sm hover:text-[#C4612C] transition-colors">
                   {cat}
