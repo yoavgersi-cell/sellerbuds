@@ -98,7 +98,7 @@ export default function StartHerePage() {
           Start here.
         </h1>
         <p className="text-xl text-gray-500 max-w-xl mx-auto leading-relaxed">
-          Whether you're setting up your first shop or pushing past your first 100 sales — this is your guide.
+          Whether you&apos;re setting up your first shop or pushing past your first 100 sales — this is your guide.
         </p>
       </div>
 
@@ -130,7 +130,7 @@ export default function StartHerePage() {
               I have a shop and want more sales
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed">
-              You're past the basics. Let's get strategic — traffic, pricing, branding, and more.
+              You&apos;re past the basics. Let&apos;s get strategic — traffic, pricing, branding, and more.
             </p>
             <span className="inline-block mt-4 text-[#C4612C] text-sm font-semibold">
               The growth playbook →
@@ -144,8 +144,8 @@ export default function StartHerePage() {
         <div className="max-w-4xl mx-auto px-4 py-16">
           <div className="mb-10">
             <p className="text-[#C4612C] font-medium text-sm uppercase tracking-widest mb-2">For new sellers</p>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-gray-900">The Beginner's Roadmap</h2>
-            <p className="text-gray-500 mt-3 max-w-lg">Six steps, in order. Don't skip ahead — each one builds on the last.</p>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold text-gray-900">The Beginner&apos;s Roadmap</h2>
+            <p className="text-gray-500 mt-3 max-w-lg">Six steps, in order. Don&apos;t skip ahead — each one builds on the last.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -176,7 +176,7 @@ export default function StartHerePage() {
           <div className="mb-10">
             <p className="text-[#C4612C] font-medium text-sm uppercase tracking-widest mb-2">For established sellers</p>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-gray-900">The Growth Playbook</h2>
-            <p className="text-gray-500 mt-3 max-w-lg">Pick your biggest bottleneck and go deep on it. That's how shops break through plateaus.</p>
+            <p className="text-gray-500 mt-3 max-w-lg">Pick your biggest bottleneck and go deep on it. That&apos;s how shops break through plateaus.</p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -226,7 +226,7 @@ export default function StartHerePage() {
                 'What single thing got you your first 100 sales?',
               ].map(q => (
                 <div key={q} className="bg-[#FFF8F4] rounded-xl px-4 py-3 border border-orange-100 text-sm text-gray-700 font-medium">
-                  "{q}"
+                  &ldquo;{q}&rdquo;
                 </div>
               ))}
             </div>
