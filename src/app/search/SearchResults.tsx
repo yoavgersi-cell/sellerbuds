@@ -63,7 +63,7 @@ export default function SearchResults({
             <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35" strokeLinecap="round" strokeWidth="2"/>
           </svg>
           <p className="text-lg font-medium text-gray-500">What are you looking for?</p>
-          <p className="text-sm mt-1">Try "pricing", "photography", "TikTok", or "first sale"</p>
+          <p className="text-sm mt-1">Try &ldquo;pricing&rdquo;, &ldquo;photography&rdquo;, &ldquo;TikTok&rdquo;, or &ldquo;first sale&rdquo;</p>
         </div>
       )}
 
