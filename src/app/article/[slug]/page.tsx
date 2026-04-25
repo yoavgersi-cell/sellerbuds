@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import NewsletterForm from '@/components/NewsletterForm'
+import ShareButtons from '@/components/ShareButtons'
+import ReadingProgress from '@/components/ReadingProgress'
 
 export async function generateStaticParams() {
   const articles = await getArticles()
@@ -91,6 +93,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
 
   return (
     <div>
+      <ReadingProgress />
       {/* Article header */}
       <div className="max-w-3xl mx-auto px-4 pt-10 pb-6">
         <div className="mb-4">
@@ -104,7 +107,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
           {article.title}
         </h1>
         <p className="text-xl text-gray-500 leading-relaxed mb-6">{article.excerpt}</p>
-        <div className="flex items-center gap-4 pb-6 border-b border-orange-100">
+        <div className="flex items-center justify-between gap-4 pb-6 border-b border-orange-100 flex-wrap">
           <div className="w-10 h-10 rounded-full bg-[#C4612C] flex items-center justify-center text-white font-bold text-sm">
             {article.author.split(' ').map((n: string) => n[0]).join('')}
           </div>
@@ -115,6 +118,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
             </div>
           </div>
         </div>
+        <ShareButtons title={article.title} slug={article.slug} />
       </div>
 
       {/* Cover image */}

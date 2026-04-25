@@ -17,6 +17,11 @@ export default function Header() {
             SellerBuds
           </Link>
           <div className="hidden md:flex items-center gap-3">
+            <Link href="/search" aria-label="Search" className="p-2 text-gray-500 hover:text-[#C4612C] transition-colors">
+              <svg width="18" height="18" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35" strokeLinecap="round"/>
+              </svg>
+            </Link>
             <Link
               href={START_HERE_HREF}
               className="text-sm font-semibold text-[#C4612C] border border-[#C4612C] px-4 py-2 rounded-full hover:bg-[#C4612C] hover:text-white transition-colors"
